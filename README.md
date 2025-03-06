@@ -1,4 +1,4 @@
-# README
+# PhD Research
 
 ## Project Title:
 Model calculations of the contribution of tropospheric SO2 to the stratospheric aerosol layer
