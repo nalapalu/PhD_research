@@ -12,54 +12,66 @@ The project also aimed to compare the model results with other existing models a
 
 ## Objectives:
 - What are the source regions near the surface which contribute SO2 to the stratospheric aerosol layer?
-- What is the contribution of tropospheric SO2 to the stratospheric aerosol layer? How do the results from the ATLAS model compare to results of other observational and model data?
-- What are the uncertainties in the parameters and parameterizations of the ATLAS model and how does it affect the transport and chemistry of tropospheric SO2?
-- What is the effect of ENSO on the transport of SO2? What are the differences in sources, SO2 burden and sensitivities during the El Ni˜no, La Ni˜na and normal years?
+- What is the contribution of tropospheric SO2 to the stratospheric aerosol layer?
+- How do the results from the ATLAS model compare to results of other observational and model data?
+- What are the uncertainties in the parameters and parameterizations of the ATLAS model?
+- What is the effect of ENSO on the transport of SO2? 
+
 ## Data Used:
-1. **TRMM PR (Tropical Rainfall Measuring Mission Precipitation Radar) data products:**
-   - 2A25: Spatial resolution 0.05° x 0.05°, vertical resolution 0.25 km.
-   - 3B42: Spatial resolution 0.25° x 0.25°, temporal resolution 3 hours.
-   - Period of data: 16 years (1998–2013), Version 7.
+1. **ERA-5 ans ERA Interm Reanalysis data:**
+   - Variables: Pressure, temperature, relative humidity, vertical wind velocity.
+   - Spatial resolution: 0.75° x 0.75°; temporal resolution 1 hour.
 
-2. **ERA-5 Reanalysis data:**
-   - Variables: Total column water vapor, temperature, relative humidity, vertical wind velocity.
-   - Spatial resolution: 0.25° x 0.25°; temporal resolution 1 hour.
-
-3. **Sea Surface Temperature Data:**
-   - Optimum Interpolation Sea Surface Temperature (OISST).
-   - Spatial resolution: 0.25° x 0.25°; temporal resolution 1 day.
+2. **CAMS Reanalysis Data:**
+   - Copernicus Atmosphere Monitoring Service (CAMS).
+   - Spatial resolution: 0.75° x 0.75°; temporal resolution 3 hour.
 
 ## Study Region:
-- Arabian Sea (AS): 8°–20° N, 63°–72° E
-- Bay of Bengal (BOB): 8°–21° N, 83°–92° E
+- 30°N – 30°S, 0°–360° E
+- Tropical troposphere
 
-## Key Findings:
-- **Vertical Structure of Precipitation:**
-  - Higher occurrence of shallow rainfall observed below 4 km altitude during dry spells, particularly evident over the Arabian Sea (AS) and Bay of Bengal (BOB) during the Northeast Monsoon (NEM).
-  - Reflectivity occurrence shows a unimodal distribution in NEM and a bimodal distribution in SWM, indicating increased shallow rainfall occurrences transitioning from SWM to NEM over BOB.
-  
-- **Storm Height Distribution:**
-  - Predominance of shallow rain indicated by a peak at 3 km altitude over the AS.
-  - Stratiform rain occurrence marked by a peak at 6 km altitude.
-  - Deep systems observed more frequently during wet spells over both seas.
+**RQ1: Source Regions of SO2**
 
-- **Rainfall Oscillations:**
-  - Monsoon rainfall over India exhibits three distinct time scales of oscillations:
-    - Short-term (3–8 days): linked to synoptic-scale activities.
-    - Intermediate-term (10–20 days): northward propagation of rainy systems.
-    - Long-term (30–60 days): northwestward propagation, correlated to large-scale atmospheric and oceanic processes such as the Madden-Julian Oscillation (MJO).
+* The main source regions identified by the ATLAS model are over Eastern China, India, Southern Mexico, South East Asia, and Papa New Guinea.
+* Primary anthropogenic (human-related), biogenic (natural), and degassing volcanoes contribute to SO2 emissions in these regions.
+* High-density emission sources, such as factories and power plants in India and Eastern China, are significant contributors to SO2 transport.
+* Cloud water plays a role in the transport of SO2, with sensitivity to its values varying between 7-23%.
+
+**RQ2: Contribution of Tropospheric SO2**
+
+* The ATLAS model results show that tropospheric SO2 contributes significantly to the stratospheric aerosol layer.
+* Comparison with other observational and model data shows that the mass flux values are comparable to some aircraft measurements, but higher than others.
+* Mixing ratios near the tropopause at 17 km are higher in the ATLAS model results compared to most other measurements.
+* The differences in measurement datasets may be due to regional variability, time periods, and vertical resolution.
+
+**RQ3: Uncertainties in Model Parameters**
+
+* The pH value is the most sensitive parameter in the ATLAS model, with an uncertainty of 28-52% when changed by ±1 unit.
+* The OH value is the second most sensitive parameter, with an uncertainty of 10-28% when changed by ±50%.
+* The DMS (dimethylsulfide) value has a moderate sensitivity to changes in its values, with an uncertainty of 24-42%.
+* Cloud water is the least sensitive parameter, with an uncertainty of 0-10% when changed by ±50%.
+
+**RQ4: Effect of ENSO on SO2 Transport**
+
+* The ATLAS model shows that ENSO events (El Niño and La Niña) affect the transport of SO2.
+* During El Niño years, the main sources are Eastern China and the South China Sea, with lower SO2 burden compared to La Niña years.
+* La Niña years show the highest SO2 mass flux, followed by normal years, which have a moderate increase in SO2 burden.
+* ENSO events alter the sensitivity of DMS values, with the largest effect observed during El Niño years.
 
 ## Methodology:
-- Analysis based on radar reflectivity profiles (CFADs - Contoured Frequency by Altitude Diagrams) using TRMM PR datasets.
-- Temporal-spatial and spectral analyses of rainfall variations and oscillation modes.
-- Comparative assessment of rainfall features between wet and dry spells, identified using defined rainfall thresholds.
-
+- Used ATLAS Lagrangian chemistry and transport model for analysis
+- Developed a numerical model in MATLAB where I developed parameterizations to improve model accuracy 
+- Collected, preprocessed and explored data from diverse sources and file formats, multiple GBs large.
+- Created a range of high quality visualizations using different packages
+- Presented results in national and international conferences to technical and non-technical audiences.
+- Collaborated with world leading scientists to produce scientific reports
+  
 ## References:
-- Rao et al. (2016): Provided core insights regarding rainfall oscillations and their propagation.
-- Saikranthi and Chiranjeevi (2021): Discussed CFAD-based reflectivity distribution analyses, examining precipitation vertical structures.
+- Nalapalu et al. (2025): Model calculations of the contribution of tropospheric SO2 to the stratospheric aerosol layer
+- Wohltmann et al. (2019): A lagrangian convective transport scheme including a simulation of the time air parcels spend in updrafts 
 
 ## Authors:
-Chirajeevi N S
+Chirajeevi Nalapalu
 
 ## Contact:
 For additional information or questions, please reach out to:
