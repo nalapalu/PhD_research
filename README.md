@@ -58,6 +58,7 @@ The project also aimed to compare the model results with other existing models a
 * La Niña years show the highest SO2 mass flux, followed by normal years, which have a moderate increase in SO2 burden.
 * ENSO events alter the sensitivity of DMS values, with the largest effect observed during El Niño years.
 
+[Slide Deck with results]()
 ## Methodology:
 - Used ATLAS Lagrangian chemistry and transport model for analysis
 - Developed a numerical model in MATLAB where I developed parameterizations to improve model accuracy 
