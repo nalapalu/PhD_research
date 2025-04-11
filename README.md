@@ -6,7 +6,7 @@ Model calculations of the contribution of tropospheric SO2 to the stratospheric 
 ## Overview:
 This research project aims to quantify the amount of sulfur dioxide (SO2) entering the stratosphere during volcanically quiescent periods and its associated uncertainties. The study focuses on understanding the contribution of SO2 to the stratospheric aerosol layer, which has significant implications for stratospheric chemistry, Earth's radiative balance, and geo-engineering. 
 
-To achieve this goal, a comprehensive modeling approach was employed using the ATLAS (Advanced Treatment of Aerosols) chemistry and transport model. The study involved numerous sensitivity runs to assess the impact of limited knowledge of the underlying processes on the results. The main source regions contributing SO2 to the stratosphere were identified, as well as the types of emissions sources at the surface, including both natural and anthropogenic sources. 
+To achieve this goal, a comprehensive modeling approach was employed using the ATLAS chemistry and transport model. The study involved numerous sensitivity runs to assess the impact of limited knowledge of the underlying processes on the results. The main source regions contributing SO2 to the stratosphere were identified, as well as the types of emissions sources at the surface, including both natural and anthropogenic sources. 
 
 The project also aimed to compare the model results with other existing models and observational data sets, such as the POSIDON flight mission. This comparison will provide a more comprehensive understanding of the uncertainties associated with estimating stratospheric SO2 input. 
 
