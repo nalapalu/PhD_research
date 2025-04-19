@@ -1,7 +1,4 @@
-# PhD Research
-
-## Project Title:
-Model calculations of the contribution of tropospheric SO2 to the stratospheric aerosol layer
+# Model calculations of the contribution of tropospheric SO2 to the stratospheric aerosol layer
 
 ## Overview:
 This research project aims to quantify the amount of sulfur dioxide (SO2) entering the stratosphere during volcanically quiescent periods and its associated uncertainties. The study focuses on understanding the contribution of SO2 to the stratospheric aerosol layer, which has significant implications for stratospheric chemistry, Earth's radiative balance, and geo-engineering. 
